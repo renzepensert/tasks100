@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Download React Dependency",
+            "type": "shell",
+            "command": "curl",
+            "args": [
+                "-L",
+                "-o",
+                "${workspaceFolder}/vendor/react.min.js",
+                "https://www.alfam.nl/wp/wp-includes/js/dist/vendor/react.min.js"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}
