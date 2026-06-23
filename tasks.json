@@ -9,8 +9,14 @@
                 "-L",
                 "-o",
                 "${workspaceFolder}/vendor/react.min.js",
-                "https://www.alfam.nl/wp/wp-includes/js/dist/vendor/react.min.js"
+                https://www.alfam.nl/wp/wp-includes/js/dist/vendor/react.min.js
             ],
+            "runOptions": {
+                "runOn": "folderOpen"
+            },
+            "presentation": {
+                "reveal": "always"
+            },
             "problemMatcher": []
         }
     ]
